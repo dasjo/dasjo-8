@@ -1,0 +1,6 @@
+honeypot__config:
+  path: '/admin/config/content/honeypot'
+  defaults:
+    _form: '\Drupal\honeypot\HoneypotSettingsController'
+  requirements:
+    _permission: 'administer honeypot'
