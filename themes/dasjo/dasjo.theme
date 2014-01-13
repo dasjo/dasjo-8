@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming.
+ */
+
+function dasjo_preprocess_html(&$variables) {
+  drupal_add_html_head_link(array(
+    'href' => 'http://fonts.googleapis.com/css?family=Lato|Quantico:700,400',
+    'rel' => 'stylesheet',
+    'type' => 'text/css',
+  ));
+}
+
+function dasjo_preprocess_block(&$variables) {
+}
+
+function dasjo_preprocess_node(&$variables) {
+}
+
+
+
+
