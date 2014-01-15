@@ -1,0 +1,19 @@
+<article id="node-{{ node.id }}" class="{{ attributes.class}} clearfix"{{ attributes }} role="article">
+
+  <div class="group-date">
+    {{ content.field_group_date }}
+  </div>
+
+  <header>
+    {{ title_prefix }}
+      <h3{{ title_attributes }}>{{ label }}</h3>
+    {{ title_suffix }}
+  </header>
+
+  <div class="content clearfix"{{ content_attributes }}>
+    {# We hide links now so that we can render them later. #}
+    {% hide(content.links) %}
+    {{ content }}
+  </div>
+
+</article>

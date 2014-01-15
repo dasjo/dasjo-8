@@ -1,18 +1,28 @@
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.4em;
+  padding: 1.5em;
 }
 
 h1 {
+  background-color: #BB66EE;
+}
+
+h2 {
+  background-color: #EEAA99;
+}
+
+h1, h2 {
+  color: white;
   font-weight: 400;
-  font-size: 97px;
-  line-height: 90px;
-  text-align: center;
+  font-size: 29px;
+  line-height: 27px;
+  margin-bottom: 27px;
   font-family: Quantico;
   font-style: normal;
-  background-color: #BB66EE;
   padding: 0.4em;
-  padding-top: 0.25em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
 }
 
 p.intro {
@@ -35,18 +45,6 @@ p {
   margin-bottom: 27px;
 }
 
-h2 {
-  font-weight: 400;
-  font-size: 29px;
-  line-height: 27px;
-  margin-bottom: 27px;
-  font-family: Quantico;
-  font-style: normal;
-  background-color: #EEAA99;
-  padding: 0.4em;
-  padding-top: 0.4em;
-}
-
 p.pullquote {
   padding-left: 10px;
   border-style: solid;
@@ -65,3 +63,79 @@ body {
 iframe, img {
   max-width: 100%;
 }
+
+
+.block-views {
+
+}
+
+.block-views h2 {
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+}
+
+
+.views-row-1 {
+  background-color: rgba(255, 184, 167, 0.6);
+}
+.views-row-2 {
+  background-color: rgba(255, 184, 167, 0.5);
+}
+.views-row-3 {
+  background-color: rgba(255, 184, 167, 0.3);
+}
+.views-row-4 {
+  background-color: rgba(255, 184, 167, 0.1);
+}
+
+.views-row {
+  padding-left: 1em;
+  overflow: hidden;
+  padding-bottom: 1.5em;
+
+  border-right: 0.5em solid #EEAA99;
+}
+
+#block-dasjo-views-block-work {
+
+}
+
+.group-date {
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  float: right;
+}
+.field-type-datetime .field-label {
+  display: none;
+}
+.field-type-datetime {
+  display: inline-block;
+}
+.field-name-field-to .field-item:before {
+  content: "-";
+  padding-right: 0.5em;
+}
+
+.block-views ul {
+  margin-top: 0;
+  margin-left: -1em;
+}
+
+header, .node-work .content {
+  padding-right: 10em;
+}
+
+li {
+  list-style: square;
+  line-height: 1.6em;
+}
+
+
+
+nav li {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+}
+

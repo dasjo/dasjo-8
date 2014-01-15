@@ -17,6 +17,8 @@ function dasjo_preprocess_block(&$variables) {
 }
 
 function dasjo_preprocess_node(&$variables) {
+  // print_r($variables);
+  $i = 1;
 }
 
 
