@@ -1,7 +1,27 @@
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.4em;
-  padding: 1.5em;
+  padding: 1em;
+  background-color: #F3DEEA;
+}
+
+
+@media only screen and (min-width: 26.5em) {
+  body {
+    padding-left: 5%;
+    padding-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 46.5em) {
+  body {
+    padding-left: 10%;
+    padding-right: 35%;
+  }
+
+  .block-views header, .node-work .content {
+    padding-right: 4em;
+  }
 }
 
 h1 {
@@ -90,7 +110,7 @@ iframe, img {
 }
 
 .views-row {
-  padding-left: 1em;
+  padding: 0 1em;
   overflow: hidden;
   padding-bottom: 1.5em;
 
@@ -106,6 +126,8 @@ iframe, img {
   font-size: 0.9em;
   line-height: 0.9em;
   float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 .field-type-datetime .field-label {
   display: none;
@@ -123,19 +145,59 @@ iframe, img {
   margin-left: -1em;
 }
 
-header, .node-work .content {
-  padding-right: 10em;
-}
-
 li {
   list-style: square;
   line-height: 1.6em;
 }
 
+header[role=banner] {
+  float: left;
+}
 
+header[role=banner] a {
+  padding: 0.5em 0.9em;
+  background: #111;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+}
 
 nav li {
   display: inline-block;
-  padding: 0.2em 0.5em;
+  padding: 0.4em 0.8em;
+  background-color: #333;
+}
+nav li a, nav ul.links li.active a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul.links li.active a, nav li a:hover, nav li a:active, nav li a:focus,
+header[role=banner] a:hover, header[role=banner] a:active, header[role=banner] a:focus{
+  text-decoration: underline;
+}
+
+nav li + li {
+  background-color: #444;
+}
+nav li + li + li {
+  background-color: #555;
+}
+nav li + li + li + li {
+  background-color: #666;
+}
+nav li + li + li + li + li {
+  background-color: #777;
+}
+nav li + li + li + li + li + li {
+  background-color: #888;
+}
+
+main {
+  margin-top: 3em;
 }
 
