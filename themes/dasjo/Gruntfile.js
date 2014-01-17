@@ -45,6 +45,13 @@ module.exports = function (grunt) {
         files: ['scss/{,*/}*.{scss,sass}'],
         tasks: default_tasks,
         options: {
+          livereload: false,
+        }
+      },
+      css: {
+        files: ['css/*.css'],
+        tasks: [],
+        options: {
           livereload: true,
         }
       }
