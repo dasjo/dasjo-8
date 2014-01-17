@@ -1,7 +1,6 @@
 .group-date {
   font-style: italic;
-  font-size: 0.9em;
-  line-height: 0.9em;
+  @include font-size(0.9);
   float: right;
   margin-left: 1em;
   margin-bottom: 1em;

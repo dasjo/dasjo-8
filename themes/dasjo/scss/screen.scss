@@ -11,34 +11,52 @@ $color-secondary: #EEAA99;
 $break-small: 26.5em;
 $break-medium: 46.5em;
 
+/* Mixins */
+
+$base-font-size: 1.4;
+$base-line-height: 1.5;
+
+@mixin font-size($size: 1, $line: $size * $base-line-height, $base: $base-font-size) {
+  /* Factor 16 expects HTML element to be set to 100% */
+  font-size: ($base * $size * 16) + px;
+  font-size: $base * $size + rem;
+  line-height: ($base * $line * 16) + px;
+  line-height: $base * $line + rem;
+}
+
 /* Base styles */
 
 %font-heading {
   font-family: Quantico;
-  font-size: 3em;
-  line-height: 1.5em;
+  @include font-size(1.8);
   margin-bottom: 1.5em;
   font-style: normal;
   padding: 0.4em;
   padding-top: 0.5em;
   text-transform: uppercase;
+  color: white;
+  font-weight: 400;
 }
 
 %font-normal {
   font-family: 'Lato', sans-serif;
-}
-
-body {
-  line-height: 1.4em;
-  padding: 1em;
-  background-color: $color-bg;
-  @extend %font-normal;
   font-style: normal;
   font-weight: 400;
 }
 
+html {
+  font-size: 100%;
+}
+
+body {
+  @extend %font-normal;
+  @include font-size;
+
+  padding: 1em;
+  background-color: $color-bg;
+}
+
 p {
-  font-size: 1.2em;
   color: rgba(51, 51, 51, 0.80);
   margin-bottom: 1.2em;
 }
@@ -54,8 +72,6 @@ h2 {
 }
 
 h1, h2 {
-  color: white;
-  font-weight: 400;
   @extend %font-heading;
 }
 
