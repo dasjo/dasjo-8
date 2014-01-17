@@ -1,0 +1,41 @@
+@mixin cut-edge-base($color-background: $color-bg) {
+  & {
+    position: relative;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0;
+  }
+}
+
+@mixin cut-edge-top($color-background: $color-bg) {
+  &:before {
+    top: 0; right: 0;
+    border-top: 0.4em solid $color-background;
+    border-left: 0.5em solid rgba(0, 0, 0, 0);
+  }
+}
+
+@mixin cut-edge-bottom($color-background: $color-bg) {
+  &:before {
+    bottom: 0; right: 0;
+    border-bottom: 0.4em solid $color-bg;
+    border-left: 0.5em solid rgba(0, 0, 0, 0);
+  }
+}
+
+%cut-edge-base {
+  @include cut-edge-base;
+}
+
+%cut-edge {
+  @extend %cut-edge-base;
+  @include cut-edge-top;
+}
+
+%cut-edge-bottom {
+  @extend %cut-edge-base;
+  @include cut-edge-bottom;
+}

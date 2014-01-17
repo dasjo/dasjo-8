@@ -13,6 +13,8 @@ $break-medium: 46.5em;
 
 /* Mixins */
 
+@import 'utility/_all.scss';
+
 $base-font-size: 1.4;
 $base-line-height: 1.5;
 
@@ -65,10 +67,12 @@ p {
 
 h1 {
   background-color: $color-primary;
+  @extend %cut-edge-bottom;
 }
 
 h2 {
   background-color: $color-secondary;
+  @extend %cut-edge;
 }
 
 h1, h2 {
@@ -83,7 +87,6 @@ iframe, img {
 
 li {
   list-style: square;
-  line-height: 1.6em;
 }
 
 /* Layout */

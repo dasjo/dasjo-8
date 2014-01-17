@@ -1,7 +1,53 @@
 /* Variables */
 /* Mixins */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_cut_edge\.scss}line{font-family:\000032}}
+h2, nav li a, h1 {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_cut_edge\.scss}line{font-family:\000036}}
+h2:before, nav li a:before, h1:before {
+  content: '';
+  position: absolute;
+  width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_cut_edge\.scss}line{font-family:\0000314}}
+h2:before, nav li a:before {
+  top: 0;
+  right: 0;
+  border-top: 0.4em solid #f3deea;
+  border-left: 0.5em solid transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_cut_edge\.scss}line{font-family:\0000322}}
+h1:before {
+  bottom: 0;
+  right: 0;
+  border-bottom: 0.4em solid #f3deea;
+  border-left: 0.5em solid transparent;
+}
+
+/* Example:
+
+nav li + li {
+  background-color: #444;
+}
+nav li + li + li {
+  background-color: #555;
+}
+nav li + li + li + li {
+  background-color: #666;
+}
+nav li + li + li + li + li {
+  background-color: #777;
+}
+nav li + li + li + li + li + li {
+  background-color: #888;
+}
+
+*/
 /* Base styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000331}}
 h1, h2 {
   font-family: Quantico;
   /* Factor 16 expects HTML element to be set to 100% */
@@ -18,19 +64,19 @@ h1, h2 {
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000343}}
 body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000349}}
 html {
   font-size: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000353}}
 body {
   /* Factor 16 expects HTML element to be set to 100% */
   font-size: 22.4px;
@@ -41,50 +87,49 @@ body {
   background-color: #f3deea;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000361}}
 p {
   color: rgba(51, 51, 51, 0.8);
   margin-bottom: 1.2em;
 }
 
 /* Headings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000368}}
 h1 {
   background-color: #bb66ee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000373}}
 h2 {
   background-color: #eeaa99;
 }
 
 /* Elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000384}}
 iframe, img {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000388}}
 li {
   list-style: square;
-  line-height: 1.6em;
 }
 
 /* Layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000394}}
 main {
   margin-top: 3em;
 }
 
 @media (min-width: 26.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000398}}
   body {
     padding-left: 5%;
     padding-right: 15%;
   }
 }
 @media (min-width: 46.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\0000398}}
   body {
     padding-left: 10%;
     padding-right: 35%;
@@ -92,7 +137,7 @@ main {
 }
 
 @media (min-width: 46.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/screen\.scss}line{font-family:\00003111}}
   .block-views header, .node-work .content {
     padding-right: 4em;
   }
@@ -124,27 +169,6 @@ main {
 .field-name-field-to .field-item:before {
   content: "-";
   padding-right: 0.5em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_header\.scss}line{font-family:\000031}}
-header[role=banner], nav {
-  font-family: Quantico;
-  text-transform: uppercase;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_header\.scss}line{font-family:\000036}}
-header[role=banner] {
-  float: left;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_header\.scss}line{font-family:\0000310}}
-header[role=banner] a {
-  padding: 0.5em 0.9em;
-  background: #111;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: normal;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_listings\.scss}line{font-family:\000036}}
@@ -188,74 +212,83 @@ header[role=banner] a {
   border-right: 0.5em solid #EEAA99;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\000031}}
+header[role=banner], nav {
+  font-family: Quantico;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\000036}}
+header[role=banner] {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\000039}}
+header[role=banner] a {
+  padding: 0.4em 0.8em;
+  background: #111;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000320}}
 nav ul {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000324}}
 nav li {
   display: inline-block;
-  background-color: #333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000327}}
 nav li a {
   display: inline-block;
   padding: 0.4em 0.8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000331}}
 nav li a, nav ul.links li.active a {
   color: white;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000336}}
 nav ul.links li.active a, nav li a:hover, nav li a:active, nav li a:focus,
 header[role=banner] a:hover, header[role=banner] a:active, header[role=banner] a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000324}}
-nav li + li {
-  background-color: #444;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000327}}
-nav li + li + li {
-  background-color: #555;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000330}}
-nav li + li + li + li {
-  background-color: #666;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000333}}
-nav li + li + li + li + li {
-  background-color: #777;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000336}}
-nav li + li + li + li + li + li {
-  background-color: #888;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
 nav li {
-  position: relative;
+  border: 100;
+  background-color: #222222;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/components\/_menu\.scss}line{font-family:\0000344}}
-nav li:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 10px solid #F3DEEA;
-  border-left: 10px solid transparent;
-  width: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
+nav li + li {
+  border: 80;
+  background-color: #2c2c2c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
+nav li + li + li {
+  border: 60;
+  background-color: #363636;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
+nav li + li + li + li {
+  border: 40;
+  background-color: #404040;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
+nav li + li + li + li + li {
+  border: 20;
+  background-color: #4a4a4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/utility\/_list_gradient\.scss}line{font-family:\0000312}}
+nav li + li + li + li + li + li {
+  border: 0;
+  background-color: #555555;
 }
 
 /*# sourceMappingURL=screen.css.map */
