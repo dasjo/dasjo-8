@@ -1,0 +1,15 @@
+id: node.education.field_tags
+uuid: e9ae96f3-d895-49e3-933b-5997aa012a3b
+status: true
+langcode: en
+field_uuid: 60db47f4-54fb-4c86-a439-5769fbda4bd1
+field_name: field_tags
+entity_type: node
+bundle: education
+label: Tags
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: taxonomy_term_reference

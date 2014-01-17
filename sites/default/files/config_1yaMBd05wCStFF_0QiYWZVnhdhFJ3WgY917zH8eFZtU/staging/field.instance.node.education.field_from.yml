@@ -1,0 +1,15 @@
+id: node.education.field_from
+uuid: 065d490e-f055-4f2b-ab1b-27955b07e422
+status: true
+langcode: en
+field_uuid: 96083f0e-3c5d-4918-a161-979cd69f709c
+field_name: field_from
+entity_type: node
+bundle: education
+label: From
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: datetime

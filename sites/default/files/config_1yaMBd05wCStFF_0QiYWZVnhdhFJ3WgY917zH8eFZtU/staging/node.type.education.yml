@@ -1,0 +1,18 @@
+type: education
+uuid: ca71bdd3-4ed3-4bfa-8d00-e631fb03abdb
+name: Education
+description: ''
+help: ''
+has_title: true
+title_label: Title
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      promote: false
+      sticky: false
+      revision: false
+    submitted: false
+status: true
+langcode: en

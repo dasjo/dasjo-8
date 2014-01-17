@@ -1,0 +1,28 @@
+id: dasjo_views_block__work
+uuid: 7c3926ae-a754-4706-8100-c9b38ef4cedb
+weight: -4
+status: true
+langcode: en
+theme: dasjo
+region: content
+plugin: 'views_block:work-block_1'
+settings:
+  views_label: ''
+  items_per_page: none
+  cache: -1
+  label: ''
+  module: views
+  label_display: visible
+visibility:
+  path:
+    visibility: 1
+    pages: about
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      education: '0'
+      page: '0'
+      work: '0'
+  visibility__active_tab: edit-visibility-path

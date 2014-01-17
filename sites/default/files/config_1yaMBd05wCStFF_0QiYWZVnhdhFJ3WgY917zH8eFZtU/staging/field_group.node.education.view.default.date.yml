@@ -1,0 +1,19 @@
+id: node.education.view.default.date
+label: Date
+uuid: 276473c3-d9c7-4c03-8c02-2b362a673978
+entity_type: node
+bundle: education
+display_mode: view
+view_mode: default
+type: div
+parent: ''
+field_group_name: field_group_date
+fields:
+  - field_from
+  - field_to
+field_order: null
+field_groups: null
+weight: '0'
+plugin_settings: null
+status: true
+langcode: en

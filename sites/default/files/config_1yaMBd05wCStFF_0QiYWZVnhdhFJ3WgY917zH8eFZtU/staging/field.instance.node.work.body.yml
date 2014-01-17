@@ -1,0 +1,17 @@
+id: node.work.body
+uuid: 49a4886b-49ee-438a-9b59-89c86f78fa50
+status: true
+langcode: en
+field_uuid: c77c1f4d-41af-4c76-9d1f-31ab2fed07de
+field_name: body
+entity_type: node
+bundle: work
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+field_type: text_with_summary

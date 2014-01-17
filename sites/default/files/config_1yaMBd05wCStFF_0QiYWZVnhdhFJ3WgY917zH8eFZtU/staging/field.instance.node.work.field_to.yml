@@ -1,0 +1,15 @@
+id: node.work.field_to
+uuid: b874388b-9030-48b8-8d07-07d15caeb0ae
+status: true
+langcode: en
+field_uuid: c5010d34-6098-4405-a91d-29768f00f034
+field_name: field_to
+entity_type: node
+bundle: work
+label: To
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: datetime

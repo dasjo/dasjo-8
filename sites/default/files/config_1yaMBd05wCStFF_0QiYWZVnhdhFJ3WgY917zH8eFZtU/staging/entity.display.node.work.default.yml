@@ -1,0 +1,41 @@
+id: node.work.default
+uuid: cec73ff6-5b22-480f-8d00-f28d8039b488
+targetEntityType: node
+bundle: work
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '1'
+    settings: {  }
+    label: hidden
+  field_from:
+    type: datetime_default
+    weight: '2'
+    settings:
+      format_type: html_year
+    label: inline
+  field_link:
+    type: link
+    weight: '2'
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    label: hidden
+  field_tags:
+    type: taxonomy_term_reference_link
+    weight: '3'
+    settings: {  }
+    label: hidden
+  field_to:
+    type: datetime_default
+    weight: '3'
+    settings:
+      format_type: html_year
+    label: inline
+hidden:
+  langcode: true
+status: true

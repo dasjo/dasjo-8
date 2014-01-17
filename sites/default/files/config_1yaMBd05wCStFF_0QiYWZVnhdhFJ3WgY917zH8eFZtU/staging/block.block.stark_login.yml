@@ -1,0 +1,24 @@
+id: stark_login
+uuid: bef196d4-eaa0-4484-b103-3de7f73dfd37
+weight: 0
+status: false
+langcode: en
+theme: stark
+region: '-1'
+plugin: user_login_block
+settings:
+  label: 'User login'
+  module: user
+  label_display: visible
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

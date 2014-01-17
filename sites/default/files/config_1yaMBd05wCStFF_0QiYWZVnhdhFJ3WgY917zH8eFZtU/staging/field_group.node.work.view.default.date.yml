@@ -1,0 +1,19 @@
+id: node.work.view.default.date
+label: Date
+uuid: d76217cd-fc32-4284-a100-fdb9bdb67cca
+entity_type: node
+bundle: work
+display_mode: view
+view_mode: default
+type: div
+parent: ''
+field_group_name: field_group_date
+fields:
+  - field_from
+  - field_to
+field_order: null
+field_groups: null
+weight: '0'
+plugin_settings: null
+status: true
+langcode: en

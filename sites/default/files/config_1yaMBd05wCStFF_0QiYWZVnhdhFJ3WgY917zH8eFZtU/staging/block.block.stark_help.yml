@@ -1,0 +1,24 @@
+id: stark_help
+uuid: 159dc58b-a3c6-45f4-bc19-25fd9210cadd
+weight: 0
+status: true
+langcode: en
+theme: stark
+region: header
+plugin: system_help_block
+settings:
+  label: 'System Help'
+  module: system
+  label_display: '0'
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

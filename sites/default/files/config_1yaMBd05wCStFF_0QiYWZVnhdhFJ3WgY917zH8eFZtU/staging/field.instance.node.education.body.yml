@@ -1,0 +1,17 @@
+id: node.education.body
+uuid: fcd80840-5cec-4d52-bd09-9d56f741487d
+status: true
+langcode: en
+field_uuid: c77c1f4d-41af-4c76-9d1f-31ab2fed07de
+field_name: body
+entity_type: node
+bundle: education
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+field_type: text_with_summary

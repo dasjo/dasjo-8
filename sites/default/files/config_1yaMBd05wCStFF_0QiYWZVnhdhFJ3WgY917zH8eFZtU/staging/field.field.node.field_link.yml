@@ -1,0 +1,13 @@
+id: node.field_link
+uuid: 3b1ce858-11e6-4a14-9900-ed19a28a543b
+status: true
+langcode: en
+name: field_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }

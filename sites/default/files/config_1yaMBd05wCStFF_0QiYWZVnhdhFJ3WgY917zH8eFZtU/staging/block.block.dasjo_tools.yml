@@ -1,0 +1,24 @@
+id: dasjo_tools
+uuid: 83b6d008-1c4d-443b-b400-fc764d174e9d
+weight: 0
+status: false
+langcode: en
+theme: dasjo
+region: '-1'
+plugin: 'system_menu_block:tools'
+settings:
+  label: Tools
+  module: system
+  label_display: visible
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

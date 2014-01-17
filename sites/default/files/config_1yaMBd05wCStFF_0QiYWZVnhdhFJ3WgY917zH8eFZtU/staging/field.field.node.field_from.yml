@@ -1,0 +1,14 @@
+id: node.field_from
+uuid: 96083f0e-3c5d-4918-a161-979cd69f709c
+status: true
+langcode: en
+name: field_from
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }

@@ -1,0 +1,22 @@
+protect_all_forms: 0
+log: 0
+element_name: url
+time_limit: '5'
+form_settings:
+  user_register_form: 1
+  user_pass: 1
+  contact_site_form: 1
+  contact_personal_form: 1
+  article_node_form: 0
+  education_node_form: 0
+  page_node_form: 0
+  work_node_form: 0
+  comment_node_article_comment_form: 1
+  comment_node_education_comment_form: 1
+  comment_node_page_comment_form: 1
+  comment_node_work_comment_form: 1
+submit: 'Save configuration'
+form_build_id: form-3vN1GVFJX2jeG7VUHl9kplKQEuhRuRQVqe6Hv52slMY
+form_token: fkOPECwcRG9wrb645ygDaRbIQgxIC6ndnwarHv-GUy4
+form_id: honeypot_settings_form
+op: 'Save configuration'

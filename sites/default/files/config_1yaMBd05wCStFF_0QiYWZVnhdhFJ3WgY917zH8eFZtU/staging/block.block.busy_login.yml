@@ -1,0 +1,24 @@
+id: busy_login
+uuid: 7f675c26-eb73-4fc1-8225-37b7b6b9e5a9
+weight: 0
+status: false
+langcode: en
+theme: busy
+region: header
+plugin: user_login_block
+settings:
+  label: 'User login'
+  module: user
+  label_display: visible
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

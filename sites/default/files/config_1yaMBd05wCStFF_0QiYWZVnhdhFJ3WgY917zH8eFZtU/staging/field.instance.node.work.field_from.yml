@@ -1,0 +1,15 @@
+id: node.work.field_from
+uuid: afae34e0-127d-44c5-b45a-90a2c57f02af
+status: true
+langcode: en
+field_uuid: 96083f0e-3c5d-4918-a161-979cd69f709c
+field_name: field_from
+entity_type: node
+bundle: work
+label: From
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+id: node.page.default
+uuid: e66f83e6-5756-4c45-9e04-4da7b3c41b02
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  title:
+    type: text_textfield
+    weight: '-5'
+    settings:
+      size: '60'
+      placeholder: ''
+  body:
+    type: text_textarea_with_summary
+    weight: '-4'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''
+hidden:
+  field_test: true
+status: true

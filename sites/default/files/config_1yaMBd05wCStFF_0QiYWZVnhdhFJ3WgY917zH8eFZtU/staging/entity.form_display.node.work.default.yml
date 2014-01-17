@@ -1,0 +1,42 @@
+id: node.work.default
+uuid: 1ddeb078-a710-4daa-9600-f549cb5e7da1
+targetEntityType: node
+bundle: work
+mode: default
+content:
+  title:
+    type: text_textfield
+    weight: '0'
+    settings:
+      size: '60'
+      placeholder: ''
+  body:
+    type: text_textarea_with_summary
+    weight: '2'
+    settings:
+      rows: '9'
+      summary_rows: '3'
+      placeholder: ''
+  field_from:
+    type: datetime_default
+    weight: '3'
+    settings: {  }
+  field_to:
+    type: datetime_default
+    weight: '4'
+    settings: {  }
+  field_link:
+    type: link_default
+    weight: '5'
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+  field_tags:
+    type: taxonomy_autocomplete
+    weight: '6'
+    settings:
+      size: '60'
+      autocomplete_route_name: taxonomy.autocomplete
+      placeholder: ''
+hidden: {  }
+status: true

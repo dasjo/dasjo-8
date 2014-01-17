@@ -1,0 +1,24 @@
+id: gratis_tools
+uuid: 02a038c7-a99b-40db-853c-605e302b247d
+weight: 0
+status: false
+langcode: en
+theme: gratis
+region: '-1'
+plugin: 'system_menu_block:tools'
+settings:
+  label: Tools
+  module: system
+  label_display: visible
+  cache: -1
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path

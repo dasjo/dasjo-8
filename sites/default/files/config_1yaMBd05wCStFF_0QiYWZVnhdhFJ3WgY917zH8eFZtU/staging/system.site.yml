@@ -1,0 +1,12 @@
+uuid: 261af1d9-78b0-4306-a100-e5dce680820f
+name: dasjo
+mail: dasjo@dasjo.at
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: node/7
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+mail_notification: ''

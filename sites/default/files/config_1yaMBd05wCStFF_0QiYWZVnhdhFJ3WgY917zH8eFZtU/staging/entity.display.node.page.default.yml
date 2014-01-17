@@ -1,0 +1,15 @@
+id: node.page.default
+uuid: b2518be7-8b5f-4dc2-a000-f13f8a694de3
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    weight: '-4'
+    settings: {  }
+    label: hidden
+hidden:
+  langcode: true
+  field_test: true
+status: true

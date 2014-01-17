@@ -1,0 +1,16 @@
+id: node.education.field_link
+uuid: 9a3a1305-693a-4e8a-b508-8cba6ea48360
+status: true
+langcode: en
+field_uuid: 3b1ce858-11e6-4a14-9900-ed19a28a543b
+field_name: field_link
+entity_type: node
+bundle: education
+label: Link
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  title: '1'
+field_type: link

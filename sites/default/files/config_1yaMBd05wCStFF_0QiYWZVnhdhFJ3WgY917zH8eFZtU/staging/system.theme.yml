@@ -1,0 +1,7 @@
+admin: seven
+enabled:
+  seven: '0'
+  bartik: '0'
+  dasjo: '0'
+  stark: '0'
+default: dasjo

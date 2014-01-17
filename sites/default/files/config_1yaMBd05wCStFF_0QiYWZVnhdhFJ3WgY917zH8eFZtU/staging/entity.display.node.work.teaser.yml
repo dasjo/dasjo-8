@@ -1,0 +1,19 @@
+id: node.work.teaser
+uuid: ad6e4363-b591-42cb-9107-7bdee429dded
+targetEntityType: node
+bundle: work
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: '600'
+hidden:
+  langcode: true
+  field_tags: true
+  field_from: true
+  field_link: true
+  field_to: true
+status: false

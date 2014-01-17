@@ -1,0 +1,16 @@
+id: node.work.field_link
+uuid: 19cc7720-fc01-4b10-8a5e-943ca063e879
+status: true
+langcode: en
+field_uuid: 3b1ce858-11e6-4a14-9900-ed19a28a543b
+field_name: field_link
+entity_type: node
+bundle: work
+label: Link
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  title: '1'
+field_type: link

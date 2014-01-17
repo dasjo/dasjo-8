@@ -1,0 +1,17 @@
+id: node.article.body
+uuid: a9fdcaf9-b41e-4761-a907-071ab26f729b
+status: true
+langcode: en
+field_uuid: c77c1f4d-41af-4c76-9d1f-31ab2fed07de
+field_name: body
+entity_type: node
+bundle: article
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+field_type: text_with_summary

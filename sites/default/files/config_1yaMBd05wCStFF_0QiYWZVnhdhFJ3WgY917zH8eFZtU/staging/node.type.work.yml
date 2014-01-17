@@ -1,0 +1,18 @@
+type: work
+uuid: 58da0f40-865b-479d-935f-95abd440d8b6
+name: Work
+description: ''
+help: ''
+has_title: true
+title_label: Title
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      promote: false
+      sticky: false
+      revision: false
+    submitted: false
+status: true
+langcode: en
