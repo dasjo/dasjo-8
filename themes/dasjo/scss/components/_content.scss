@@ -1,0 +1,18 @@
+.group-date {
+  font-style: italic;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.field-type-datetime .field-label {
+  display: none;
+}
+.field-type-datetime {
+  display: inline-block;
+}
+.field-name-field-to .field-item:before {
+  content: "-";
+  padding-right: 0.5em;
+}

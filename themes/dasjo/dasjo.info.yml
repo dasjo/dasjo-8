@@ -8,7 +8,7 @@ base theme: stark
 
 stylesheets:
   all:
-    - css/styles.css
+    - css/screen.css
 
 #  stylesheets-remove:
 #    - system.theme.css

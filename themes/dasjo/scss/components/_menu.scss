@@ -1,0 +1,51 @@
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #333;
+}
+nav li a {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+}
+nav li a, nav ul.links li.active a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul.links li.active a, nav li a:hover, nav li a:active, nav li a:focus,
+header[role=banner] a:hover, header[role=banner] a:active, header[role=banner] a:focus{
+  text-decoration: underline;
+}
+
+nav li + li {
+  background-color: #444;
+}
+nav li + li + li {
+  background-color: #555;
+}
+nav li + li + li + li {
+  background-color: #666;
+}
+nav li + li + li + li + li {
+  background-color: #777;
+}
+nav li + li + li + li + li + li {
+  background-color: #888;
+}
+
+nav li {
+  position: relative;
+}
+
+nav li:before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-top: 10px solid #F3DEEA;
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  width: 0;
+}

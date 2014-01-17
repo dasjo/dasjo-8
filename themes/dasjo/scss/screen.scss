@@ -1,0 +1,98 @@
+@import "breakpoint";
+
+
+/* Variables */
+
+$color-bg: #F3DEEA;
+$color-primary: #BB66EE;
+$color-secondary: #EEAA99;
+
+
+$break-small: 26.5em;
+$break-medium: 46.5em;
+
+/* Base styles */
+
+%font-heading {
+  font-family: Quantico;
+  font-size: 3em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  font-style: normal;
+  padding: 0.4em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+%font-normal {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  line-height: 1.4em;
+  padding: 1em;
+  background-color: $color-bg;
+  @extend %font-normal;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.2em;
+  color: rgba(51, 51, 51, 0.80);
+  margin-bottom: 1.2em;
+}
+
+/* Headings */
+
+h1 {
+  background-color: $color-primary;
+}
+
+h2 {
+  background-color: $color-secondary;
+}
+
+h1, h2 {
+  color: white;
+  font-weight: 400;
+  @extend %font-heading;
+}
+
+/* Elements */
+
+iframe, img {
+  max-width: 100%;
+}
+
+li {
+  list-style: square;
+  line-height: 1.6em;
+}
+
+/* Layout */
+
+main {
+  margin-top: 3em;
+}
+
+body {
+  @include breakpoint($break-small) {
+    padding-left: 5%;
+    padding-right: 15%;
+  }
+
+  @include breakpoint($break-medium) {
+    padding-left: 10%;
+    padding-right: 35%;
+  }
+}
+
+@include breakpoint($break-medium) {
+  .block-views header, .node-work .content {
+    padding-right: 4em;
+  }
+}
+
+@import 'components/_all.scss';
+
