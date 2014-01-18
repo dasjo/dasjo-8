@@ -1,0 +1,44 @@
+@import 'list_gradient';
+
+@mixin button-menu {
+  @include list-gradient;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding: 0;
+    }
+  }
+
+  li {
+    float: left;
+    display: block;
+    margin-bottom: 0;
+  }
+  li a {
+    display: block;
+
+    @include prefer-screen {
+      padding: 0.4em 0.8em;
+      @extend %cut-edge;
+    }
+  }
+
+  li a, ul.links li.active a {
+    @include prefer-screen {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  + * {
+    clear: both;
+  }
+
+}
+
+%button-menu {
+  @include button-menu;
+}

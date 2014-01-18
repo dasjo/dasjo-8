@@ -23,7 +23,8 @@ module.exports = function (grunt) {
           compass: true
         },
         files: {
-          'css/screen.css' : 'scss/screen.scss'
+          'css/screen.css' : 'scss/screen.scss',
+          'css/print.css' : 'scss/print.scss'
         }
       },
     },

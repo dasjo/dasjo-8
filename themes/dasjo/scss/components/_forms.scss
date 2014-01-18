@@ -1,0 +1,19 @@
+@import 'sassy-buttons';
+
+input, textarea {
+  @include font-size(1);
+  max-width: 100%;
+  display: block;
+  border: 1px solid #666;
+  max-height: 8em;
+}
+
+.button {
+  @include sassy-button("flat", 2px, 1em, rgba(88, 139, 90, 0.87));
+  margin: 0;
+  margin-bottom: 0.5em;
+
+  &, &:first-child {
+    margin-right: 1em;
+  }
+}

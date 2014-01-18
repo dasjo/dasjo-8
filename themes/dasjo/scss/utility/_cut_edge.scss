@@ -1,28 +1,34 @@
 @mixin cut-edge-base($color-background: $color-bg) {
-  & {
-    position: relative;
-  }
+  @include prefer-screen {
+    & {
+      position: relative;
+    }
 
-  &:before {
-    content: '';
-    position: absolute;
-    width: 0;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0;
+    }
   }
 }
 
 @mixin cut-edge-top($color-background: $color-bg) {
-  &:before {
-    top: 0; right: 0;
-    border-top: 0.4em solid $color-background;
-    border-left: 0.5em solid rgba(0, 0, 0, 0);
+  @include prefer-screen {
+    &:before {
+      top: 0; right: 0;
+      border-top: 0.4em solid $color-background;
+      border-left: 0.5em solid rgba(0, 0, 0, 0);
+    }
   }
 }
 
 @mixin cut-edge-bottom($color-background: $color-bg) {
-  &:before {
-    bottom: 0; right: 0;
-    border-bottom: 0.4em solid $color-bg;
-    border-left: 0.5em solid rgba(0, 0, 0, 0);
+  @include prefer-screen {
+    &:before {
+      bottom: 0; right: 0;
+      border-bottom: 0.4em solid $color-bg;
+      border-left: 0.5em solid rgba(0, 0, 0, 0);
+    }
   }
 }
 

@@ -9,6 +9,8 @@ base theme: stark
 stylesheets:
   all:
     - css/screen.css
+  print:
+    - css/print.css
 
 #  stylesheets-remove:
 #    - system.theme.css
