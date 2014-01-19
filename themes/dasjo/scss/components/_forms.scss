@@ -10,8 +10,10 @@ input, textarea {
 
 .button {
   @include sassy-button("flat", 2px, 1em, rgba(88, 139, 90, 0.87));
+  text-shadow: none;
   margin: 0;
   margin-bottom: 0.5em;
+  @extend %font-normal;
 
   &, &:first-child {
     margin-right: 1em;
