@@ -1,12 +1,10 @@
 
 .block-views {
-
+  margin-bottom: 2em;
 }
 
 .block-views h2 {
-  margin-top: 2em;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
 }
 
 .block-views ul {
@@ -15,25 +13,26 @@
 }
 
 
-.views-row-1 {
-  background-color: rgba(255, 184, 167, 0.6);
-}
-.views-row-2 {
-  background-color: rgba(255, 184, 167, 0.5);
-}
-.views-row-3 {
-  background-color: rgba(255, 184, 167, 0.3);
-}
-.views-row-4 {
-  background-color: rgba(255, 184, 167, 0.1);
+$count: 4;
+@for $i from 1 through $count {
+  .views-row.views-row-#{$i} {
+    background-color: mix($color-secondary, $color-bg, (($count - $i) / 10) * 100);
+  }
 }
 
 .views-row {
-  padding: 0 1em;
+  padding: 1em;
+  @include prefer-print {
+    padding-left: 0;
+  }
+  padding-bottom: 0;
+
   overflow: hidden;
   padding-bottom: 1.5em;
 
-  border-right: 0.5em solid #EEAA99;
+  @include prefer-screen {
+    // border-right: 0.5em solid $color-secondary;
+  }
 }
 
 #block-dasjo-views-block-work {

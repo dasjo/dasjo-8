@@ -1,9 +1,12 @@
 .group-date {
+    margin-bottom: 1em;
+  }
+  @include breakpoint($break-small) {
+    float: right;
+    margin-left: 1em;
+
   font-style: italic;
   @include font-size(0.9);
-  float: right;
-  margin-left: 1em;
-  margin-bottom: 1em;
 }
 .field-type-datetime .field-label {
   display: none;
@@ -14,4 +17,8 @@
 .field-name-field-to .field-item:before {
   content: "-";
   padding-right: 0.5em;
+}
+
+.submitted {
+  margin-bottom: 1em;
 }

@@ -3,39 +3,23 @@ header[role=banner] {
 
   a {
     padding: 0.4em 0.8em;
+    @include prefer-print {
+      padding-left: 0;
+    }
     background: #111;
     color: white;
     display: inline-block;
     text-decoration: none;
     font-weight: normal;
-  }
-}
-
-nav[role=navigation] {
-  @include list-gradient;
-
-  ul {
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin-bottom: 0;
-  }
-  li a {
-    display: inline-block;
-    padding: 0.4em 0.8em;
     @extend %cut-edge;
   }
-
-  li a, ul.links li.active a {
-    color: white;
-    text-decoration: none;
-  }
-
 }
 
-header[role=banner], nav[role=navigation] {
+[role=navigation] {
+  @extend %button-menu;
+}
+
+header[role=banner], [role=navigation] {
   font-family: Quantico;
   text-transform: uppercase;
 
@@ -50,6 +34,11 @@ header[role=banner], nav[role=navigation] {
   ul.links li.active a {
     text-decoration: underline;
   }
+}
+
+ul.menu a.active {
+  color: white;
+  text-decoration: underline;
 }
 
 
