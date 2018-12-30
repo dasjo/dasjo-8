@@ -1,0 +1,28 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/print\.scss}line{font-family:\000035}}
+html {
+  font-size: 65%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/print\.scss}line{font-family:\000039}}
+html, body {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/print\.scss}line{font-family:\0000313}}
+body:before {
+  content: 'Josef DAbernig';
+  position: fixed;
+  display: table-header-group;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/print\.scss}line{font-family:\0000319}}
+.block-views, .region-footer {
+  page-break-before: always;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/dasjo-8\/themes\/dasjo\/scss\/print\.scss}line{font-family:\0000323}}
+.screen {
+  display: none;
+}
+
+/*# sourceMappingURL=print.css.map */
