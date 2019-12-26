@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.experience.body
+    - field.field.node.experience.field_link
     - field.field.node.experience.field_tags
+    - field.field.node.experience.field_timespan
     - node.type.experience
   module:
     - text
@@ -29,4 +31,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_link: true
   field_tags: true
+  field_timespan: true

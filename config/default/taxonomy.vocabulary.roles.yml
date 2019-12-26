@@ -1,0 +1,8 @@
+uuid: af286068-506c-4220-bc52-fbe0954fb144
+langcode: en
+status: true
+dependencies: {  }
+name: Roles
+vid: roles
+description: 'Roles that describe a certain type of work, behaviours'
+weight: 0

@@ -4,9 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.experience.body
+    - field.field.node.experience.field_link
     - field.field.node.experience.field_tags
+    - field.field.node.experience.field_timespan
     - node.type.experience
   module:
+    - datetime_range
+    - link
     - path
     - text
 id: node.experience.default
@@ -30,6 +34,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_link:
+    weight: 124
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
   field_tags:
     weight: 122
     settings:
@@ -39,6 +51,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_timespan:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
     region: content
   path:
     type: path

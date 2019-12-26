@@ -1,0 +1,21 @@
+uuid: 33173538-7d49-4c60-8bdb-23c7615ad191
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_timespan
+    - node.type.experience
+  module:
+    - datetime_range
+id: node.experience.field_timespan
+field_name: field_timespan
+entity_type: node
+bundle: experience
+label: Timespan
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

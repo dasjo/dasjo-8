@@ -1,0 +1,23 @@
+uuid: 8098353c-1e5c-49a0-8b8e-cdf3604b574c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.experience
+  module:
+    - link
+id: node.experience.field_link
+field_name: field_link
+entity_type: node
+bundle: experience
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
