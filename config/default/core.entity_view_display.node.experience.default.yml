@@ -1,0 +1,37 @@
+uuid: 5be35f19-ecbb-4fd3-ab88-2465ee01f5d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.experience.body
+    - field.field.node.experience.field_tags
+    - node.type.experience
+  module:
+    - text
+    - user
+id: node.experience.default
+targetEntityType: node
+bundle: experience
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
